@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Allergen Database</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif, justify}
+.fa-pagelines,.fa-bookmark ,.fa-book , .fa-sticky-note, .fa-database,.fa-clone,.fa-edit,.fa-server {font-size:200px}
+</style>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-deep-purple w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="dbname.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    
+    <a href="table.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Database</a>
+    <!-- <a href="columns.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Columns</a> -->
+    <a href="columns.html" class="w3-bar-item w3-button w3-padding-large w3-white">About</a>
+    <!-- <a href="tutorial.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Tutorial</a> -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="dbname.html" class="w3-bar-item w3-button w3-padding-large">About Databases</a>
+    <a href="columns.html" class="w3-bar-item w3-button w3-padding-large">About Columns</a>
+    <a href="table.php" class="w3-bar-item w3-button w3-padding-large">Database</a>
+    <a href="tutorial.html" class="w3-bar-item w3-button w3-padding-large">Tutorial</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-purple w3-center" style="padding:128px 16px">
+  <h2 class="w3-margin w3-jumbo">AntiJournal</h2>
+  <p class="w3-xlarge">Comprehensive database for Antigens</p>
+  <button onclick="location.href='table.php'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h2>BCIPEP</h2>
+      <!-- <h5 class="w3-padding-32" style="text-align: justify;">Maintained by: WHO/IUIS Allergen Nomenclature Sub-Committee <br><br> -->
+        <a href="https://webs.iiitd.edu.in/raghava/bcipep/index.html" target="_blank">Click here to visit the website</a>
+        </h5>
+      <p class="w3-text-grey" style="text-align: justify;">	A Database of Immunodominant B cell Epitopes.The database is having 3031 peptide enteries.The peptides in the database has varying measure of immunogenicity.This database can assist in the development of method for predicting B cell epitopes, desigining synthetic vaccines and in disease diagnosis. </p>
+    </div>
+
+    <div class="w3-third w3-center">
+        <i class="fa fa-book w3-padding-64 w3-text-green" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-sticky-note  w3-padding-64 w3-text-green w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h2>IEDB(The Immune Epitope Database and Analysis Resource)</h2>
+      <!-- <h5 class="w3-padding-32" style="text-align: justify;">Maintained by: Food Allergy Research and Resource Program, Department of Food Science and Technology, University of Nebraska-Lincoln, Lincoln, NE, USA<br><br> -->
+        <a href = "http://www.iedb.orghttp//www.iedb.org" target="_blank" >Click here to visit the website</a>
+        </h5>
+      <p class="w3-text-grey" style="text-align: justify;">The IEDB contains data related to antibody and T cell epitopes for humans, non-human primates, rodents, and other animal species. 
+     </p>
+    </div>
+  </div>
+</div>
+
+<!--Third Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h2>AntiJen Database</h2>
+      <!-- <h5 class="w3-padding-32" style="text-align: justify;">Maintained by: Protein Allergens, Toxins and Bioinformatics Committee, Health and Environmental Sciences Institute <br><br> -->
+        <a href="https://www.jenner.ac.uk/AntiJen" target="_blank">Click here to visit the website</a>
+        </h5>
+      <p class="w3-text-grey" style="text-align: justify;">AntiJen v2.0, is a database containing quantitative binding data for peptides binding to MHC Ligand, TCR-MHC Complexes, T Cell Epitope, TAP , B Cell Epitope molecules and immunological Protein-Protein interactions. Most recently, AntiJen has included Peptide Library, Copy Numbers and Diffusion Coefficient data. </p>
+    </div>
+
+    <div class="w3-third w3-center">
+        <i class="fa fa-database w3-padding-64 w3-text-green" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-clone  w3-padding-64 w3-text-green w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h2>MHCBN</h2>
+      <!-- <h5 class="w3-padding-32" style="text-align: justify;">Maintained by: Allergy Data Laboratories, Latina, Italy<br><br> -->
+        <a href = "https://webs.iiitd.edu.in/raghava/mhcbn/" target="_blank">Click here to visit the website</a>
+        </h5>
+      <p class="w3-text-grey" style="text-align: justify;">The MHCBN is a curated database consisting of detailed information about Major Histocompatibility Complex (MHC) Binding,Non-binding peptides and T-cell epitopes.The version 4.0 of database provides information about peptides interacting with TAP and MHC linked autoimmune diseases.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Fifth Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h2>UniProtKB</h2>
+      <!-- <h5 class="w3-padding-32" style="text-align: justify;">Maintained by: Secretariat of the European and Mediterranean Plant Protection Organization (EPPO). <br><br> -->
+        <a href="https://www.uniprot.org/help/uniprotkb" target="_blank">Click here to visit the website</a>
+        </h5>
+      <p class="w3-text-grey" style="text-align: justify;">UniProt is a freely accessible database of protein sequence and functional information, many entries being derived from genome sequencing projects. It contains a large amount of information about the biological function of proteins derived from the research literature. 
+         </p>
+    </div>
+
+    <div class="w3-third w3-center">
+        <i class="fa fa-edit w3-padding-64 w3-text-green" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Sixth Grid -->
+<!-- <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-server  w3-padding-64 w3-text-green w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h2>CABI Invasive Species Compendium DATABASE</h2>
+      <h5 class="w3-padding-32" style="text-align: justify;">
+        <a href = "https://www.cabi.org/ISC" target="_blank" >Click here to visit the website</a>
+        </h5>
+      <p class="w3-text-grey" style="text-align: justify;">The Invasive Species Compendium (ISC) in CABI (Centre for Agriculture and Bioscience International) is an encyclopedic resource that brings together a wide range of different types of science-based information to support decision-making in invasive species management worldwide. Full datasheets: comprise fully referenced sections on taxonomy and nomenclature, distribution, habitat, identification, biology and ecology, species associations, pathways for introduction, impacts and management, complemented by images and maps, and supported by abstracts and full text articles. These datasheets are authored by species experts and peer reviewed. </p>
+    </div>
+  </div>
+</div> -->
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
