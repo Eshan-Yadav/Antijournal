@@ -1,5 +1,5 @@
 import pyautogui
-import time
+import time 
 # pyautogui.moveTo(1003,596,3)
 while(5):
     time.sleep(1.5)
