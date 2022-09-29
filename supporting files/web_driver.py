@@ -1,5 +1,5 @@
 from ctypes.util import find_library
-from inspect import ArgInfo
+from inspect import ArgInfo 
 from operator import le
 from typing import final
 import PyPDF2
