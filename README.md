@@ -1,2 +1,2 @@
 # Antijournal
-A database for antigen 
+A secondary database for Antigens
